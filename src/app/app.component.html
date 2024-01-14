@@ -1,5 +1,44 @@
-<div class="one">
-  <input type="text" #inputel>
+<!-- <div class="one">
+  <input type="text" #inputel >
   <button (click)="btnClick(inputel)">submit</button>
   <app-demo [message]="inputval"></app-demo>
-</div>
+</div> -->
+
+<!-- ngDoCheck -->
+
+    <!-- <div class="one">
+      <input type="text" #inputel (focus)="0">
+      <button (click)="btnClick(inputel)">submit</button>
+      <app-demo [message]="inputval"></app-demo>
+    </div> -->
+
+
+<!-- ngDoCheck -->
+
+<!-- ngAfterContentInit -->
+
+      <!-- <div class="one">
+        <input type="text" #inputel (focus)="0">
+        <button (click)="btnClick(inputel)">submit</button>
+        <app-demo [message]="inputval">
+            <p #temp>This is projected content</p>
+        </app-demo>
+      </div> -->
+
+
+<!-- ngAfterContentInit -->
+
+<!-- ngAfterContentChecked -->
+
+    <div class="one">
+      <input type="text" #inputel (focus)="0">
+      <button (click)="btnClick(inputel)">submit</button>
+      <app-demo [message]="inputval">
+          <p #temp>user has Entered following Text: {{inputval}}</p>
+      </app-demo>
+    </div>
+
+
+<!-- ngAfterContentChecked -->
+
+
