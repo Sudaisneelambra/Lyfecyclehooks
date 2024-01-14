@@ -7,4 +7,17 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'hooks';
+
+  inputval:string=""
+  
+  constructor(){
+    console.log('app constructor triggered');
+    
+  }
+
+  btnClick(input:HTMLInputElement){
+
+    this.inputval=input.value
+
+  }
 }
